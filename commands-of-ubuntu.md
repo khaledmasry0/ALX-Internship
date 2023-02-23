@@ -12,6 +12,12 @@ pwd
 ls
 ```
 
+### To clear the window:
+
+```s
+clear or cls
+```
+
 ### To view text files:
 
 ```s
