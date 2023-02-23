@@ -1,5 +1,17 @@
 # Ubuntu 20.04
 
+### the type of operating system that you are running:
+
+```s
+uname
+```
+
+### disconnect the sandbox:
+
+```s
+exit
+```
+
 ### To see the name of the working directory:
 
 ```s
@@ -10,6 +22,8 @@ pwd
 
 ```s
 ls
+ls -l     for mor info
+ls -a     all files including hidden files
 ```
 
 ### To clear the window:
@@ -34,6 +48,7 @@ file name_of_file
 
 ```s
 cd ...
+cd ../    to back one step
 ```
 
 ### To copy files and directories:
@@ -57,10 +72,22 @@ rm file...
 rm -r directory...
 ```
 
-### To create file:
+### To create file/files:
 
 ```s
 touch file_name
+```
+
+### To show the contents of a file:
+
+```s
+cat file_name
+```
+
+### To show the count of contents of a file ==> lines & words & size:
+
+```s
+wc file_name
 ```
 
 ### To create directories:
