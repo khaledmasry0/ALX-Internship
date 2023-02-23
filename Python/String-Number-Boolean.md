@@ -65,6 +65,8 @@ x = 10 > 2
 print(x)   # True
 ```
 
+<hr/>
+
 <h1 align="center"> Number </h1>
 
 ```python
