@@ -9,7 +9,7 @@ x = "python"
 print(type(x))   # str ==> string
 ```
 
-### len() : the length
+### len() : the length of the string
 
 ```python
 x = "python"
