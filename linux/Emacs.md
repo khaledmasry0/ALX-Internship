@@ -1,4 +1,4 @@
-# Emacs
+<h1 align="center"> Emacs </h1>
 
 ### `it's a text editor by Emacs lisp language`
 
