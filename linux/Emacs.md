@@ -12,6 +12,8 @@
 (tooltip-mode -1)
 ```
 
+<hr/>
+
 ```emacs
 (setq variable-name variable-value)       ;; to set a variable
 ```
