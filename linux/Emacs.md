@@ -6,6 +6,8 @@
 
 ### [Keys and Commands](https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf)
 
+### [Emacs Repo](https://github.com/daviwil/dotfiles/blob/master/Emacs.org)
+
 <hr/>
 
 ```emacs
