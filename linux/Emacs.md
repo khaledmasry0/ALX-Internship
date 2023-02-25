@@ -8,14 +8,14 @@
 
 <hr/>
 
-### Modify GUI settings
-
-#### you can put any code in .Emacs and [C-x e] ==> ctrl x then e
-
 ```emacs
 install emacs : pacman -S mingw-w64-x86_64-emacs   ;; if you use MSYS2
 choco install emacs            ;; using Chocolatey
 ```
+
+### Modify GUI settings
+
+#### you can put any code in .Emacs and [C-x e] ==> ctrl x then e
 
 ```emacs
 (menu-bar-mode -1) ;; إخفاء شريط القوائم
