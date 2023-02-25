@@ -4,6 +4,6 @@
 
 ### Modify GUI settings
 
-```emacs
+```Emacs
 (menu-bar-mode -1)
 ```
