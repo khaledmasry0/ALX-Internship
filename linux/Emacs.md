@@ -4,6 +4,17 @@
 
 ### Modify GUI settings
 
+#### you can put any code in .Emacs and [C-x e] ==> ctrl x then e
+
+### [Emacs Guide](https://systemcrafters.net/emacs-essentials/absolute-beginners-guide-to-emacs/)
+
+### [Keys and Commands](https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf)
+
+```emacs
+install emacs : pacman -S mingw-w64-x86_64-emacs   ;; if you use MSYS2
+choco install emacs            ;; using Chocolatey
+```
+
 ```emacs
 (menu-bar-mode -1) ;; إخفاء شريط القوائم
 (tool-bar-mode -1) ;; إخفاء شريط الأدوات
@@ -88,6 +99,8 @@ there's a region, all lines that region covers will be duplicated."
 (global-visual-line-mode 1) ;; الأسطر هي الأسطر المرئية، يُشبه خيار إلتفاف الأسطر في باقي المحررات
 (add-hook 'prog-mode-hook #'display-line-numbers-mode) ;; تفعيل إظهار أرقام الأسطر تلقائيا في الملفات البرمجية، فقط مع ايماكس 26
 (add-hook 'prog-mode-hook #'linum-mode) ;; مشابه للأمر السابق ويعمل على ايماكس 25
+
+https://melpa.org/#/getting-started  ;; for more packages     .emacs إلى ملف melpa أولا ينبغي إضافة متجر
 
 ;; استخدام نظام البحث البديل آيفي
 ;; ivy + ivy-rich + smex + flx
