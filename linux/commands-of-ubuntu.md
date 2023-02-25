@@ -78,7 +78,7 @@ rm -r directory...
 touch file_name
 ```
 
-### To show the content of a file:
+### To show the contents of a file:
 
 ```s
 cat file_name
