@@ -174,7 +174,7 @@ https://melpa.org/#/getting-started  ;; for more packages     .emacs إلى مل
 
 <h1 align="center"> Vim </h1>
 
-```vim
+```emacs
 vi file_name     ;; open the text file
 <esc>            ;; to able to run the command
 :wq              ;; to save and exit
