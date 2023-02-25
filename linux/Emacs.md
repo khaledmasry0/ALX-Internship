@@ -8,6 +8,8 @@
 
 ### [Emacs Repo](https://github.com/daviwil/dotfiles/blob/master/Emacs.org)
 
+### [Emacs tour guide](https://www.gnu.org/software/emacs/tour/)
+
 <hr/>
 
 ```emacs
