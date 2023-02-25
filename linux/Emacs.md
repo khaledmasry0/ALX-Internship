@@ -2,17 +2,15 @@
 
 ### `it's a text editor by Emacs lisp language`
 
-### Modify GUI settings
-
-#### you can put any code in .Emacs and [C-x e] ==> ctrl x then e
-
-<hr/>
-
 ### [Emacs Guide](https://systemcrafters.net/emacs-essentials/absolute-beginners-guide-to-emacs/)
 
 ### [Keys and Commands](https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf)
 
 <hr/>
+
+### Modify GUI settings
+
+#### you can put any code in .Emacs and [C-x e] ==> ctrl x then e
 
 ```emacs
 install emacs : pacman -S mingw-w64-x86_64-emacs   ;; if you use MSYS2
