@@ -184,10 +184,12 @@ M = Meta = Alt|Esc
 
 C-x C-f "find" file i.e. open/create a file in buffer
 C-x C-s save the file
+C-x C-c quit the file
 C-x C-w write the text to an alternate name
 C-x C-v find alternate file
 C-x i insert file at cursor position
 C-x b create/switch buffers
+M-x ibuffer  to list all buffers and choose one
 C-x C-b show buffer list
 C-x k kill buffer
 C-z suspend emacs
@@ -222,8 +224,11 @@ M-d delete word
 M-Del delete word backwards
 C-k kill line
 
+
+### selections
+
 C-Space Set beginning mark (for region marking for example)
-C-W "kill" (delete) the marked region region
+C-W "kill" (delete-cut) the marked region region
 M-W copy the marked region
 C-y "yank" (paste) the copied/killed region/line
 M-y yank earlier text (cycle through kill buffer)
